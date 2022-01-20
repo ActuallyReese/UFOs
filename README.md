@@ -5,7 +5,7 @@ The purpose of the project was to create a variety of filters that could be used
 
 
 ## Results
-To use the new webpage, simply input the desired search criteria into the appropriate textboxes. Multiple search filters can be simultaneously applied to the data. Make sure not to mispell anything or use any punctuation or capital letters, as those will not work. After inputting the desired filter(s), it may be necessary to hit the Enter key or click outside the box in order for the filter to work.
+To use the new webpage, simply input the desired search criteria into the appropriate textboxes. Multiple search filters can be simultaneously applied to the data. ![multiplefilters.png](https://github.com/Athenus/UFOs/blob/c6f047448d993cfae4b74155cfd479b389d3cf7f/static/images/multiplefilters.png) Make sure not to mispell anything or use any punctuation or capital letters, as those will not work. ![capitalstate.png](https://github.com/Athenus/UFOs/blob/c6f047448d993cfae4b74155cfd479b389d3cf7f/static/images/capitalstate.png) After inputting the desired filter(s), it may be necessary to hit the Enter key or click outside the box in order for the filter to work.
 
 ## Summary
 One large drawback of this design is that the user has no way of knowing if something if there without trying to filter first, and the search words have to match the text completely. The filter does not work if the capitalization does not match. 
