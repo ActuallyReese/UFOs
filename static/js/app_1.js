@@ -50,3 +50,31 @@ function handleClick() {
   
   // Build the table when the page loads
   buildTable(tableData);
+
+
+
+
+
+  
+  
+
+  if (date) {
+    filteredFilters = filteredFilters.filter(row => row.datetime === date);
+  };
+
+  if (city) {
+    filteredFilters = filteredFilters.filter(row => row.city === city);
+  };
+
+  if (state) {
+    filteredFilters = filteredFilters.filter(row => row.state === state);
+  };
+  
+  if (country) {
+    filteredFilters = filteredFilters.filter(row => row.country === country);
+  };
+
+  if (shape) {
+    filteredFilters = filteredFilters.filter(row => row.shape === shape);
+  };
+}
