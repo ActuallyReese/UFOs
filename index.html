@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="static/css/style.css">
-    
+    <link href="static/images/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
     <body class="bg-dark"></body>
@@ -61,12 +61,47 @@
                         <input type="text" placeholder="us" id="country" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <label for="shape">Enter a Shape</label>
-                        <input type="text" placeholder="circle" id="shape" />
+
+                      <! --Edited and repurposed code from https://www.javatpoint.com/how-to-create-dropdown-list-using-javascript -->
+                      <script>  
+                        function chosenShape() {  
+                        var mylist = document.getElementById("shape");  
+                        document.getElementById("shape").value = mylist.options[mylist.selectedIndex].text;  
+                        }  
+                        </script>
+
+                        <body>  
+                        <form>  
+                          <label for="shape">Select a Shape</label> 
+                        <select id = "shape" onchange = "chosenShape()" >  
+                          <option>  </option> 
+                          <option> changing </option>  
+                          <option> chevron </option>
+                          <option> cigar </option>
+                          <option> circle </option>
+                          <option> cross </option>
+                          <option> cylinder </option>
+                          <option> disk </option>
+                          <option> fireball </option>
+                          <option> flash </option> 
+                          <option> formation </option>
+                          <option> light </option> 
+                          <option> other </option>
+                          <option> oval </option>
+                          <option> rectangle </option>
+                          <option> sphere </option>
+                          <option> teardrop </option> 
+                          <option> triangle </option>
+                          <option> unknown </option> 
+                        </select>    
+                        </form>  
+                        </body>
                     </li>
-                    
                 </ul>
+                  <button onclick="resetFilters()"> Reset Filters </button>
             </form>
+            
+
 
           </div>
           <div class="col-md-9">
