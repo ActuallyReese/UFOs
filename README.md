@@ -12,3 +12,10 @@ One large drawback of this design is that the user has no way of knowing if some
 
 ### Potential Improvements
 It might be nicer to have a dropdown menu instead of a textbox for a few of the filter searches. The shape filter in particular could benefit from a dropdown so the user does not have to guess what all of the shapes are. It would also be helpful to be able to sort each column into groups and in alphabetical order; that way, all of the similar shapes could be grouped, or all of the states could be grouped.
+
+***
+Contact:
+
+E-mail: reesewc@comcast.net
+
+LinkedIn: https://www.linkedin.com/in/reese-coulter-33b160140/
